@@ -1,0 +1,126 @@
+/* HEADER STYLE */
+.button{
+margin-right: 5px;
+color: rgb(0, 0, 0);
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+text-decoration: none;
+transition: all 0.20s ease-in-out;
+border-color: rgb(0, 0, 0);
+border-bottom: 1px solid transparent;
+color: rgb(0, 0, 0);
+}
+
+.button:hover{
+color: #97A8A6;
+border-color: #97A8A6;
+border-bottom: 1px solid;
+}
+
+.separator{
+color: rgb(0, 0, 0);
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+text-decoration: none;
+color: rgb(0, 0, 0);
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.nav{
+text-align: center;
+}
+
+.headerTitle{
+color: rgb(0, 0, 0);
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 45px;
+text-align: center;
+}
+
+.headerLine{
+margin-top: 35px;
+}
+
+/*CONTENT STYLE */
+div#content div{
+display: inline-block;
+width: 49%;
+text-align: center;
+}
+
+div#content div.leftDiv{
+vertical-align: top;
+}
+
+div#content div.rightDiv{
+
+}
+
+img.PresImg{
+max-width: 500px;
+max-height: 500px;
+border-radius: 20px;
+transition: 0.3s;
+}
+
+img.PresImg:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.90);
+}
+
+p, h2, h1{
+font-family: 'Roboto', sans-serif;
+color: rgb(0, 0, 0);
+}
+
+.about{
+	text-align: center;
+	font-size: 20px;
+}
+.aboutLink{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-weight: bold;
+}
+.aboutLink:hover{
+	border-color: black;
+	border-bottom: 1px solid;
+}
+
+/*FOOTER STYLE */
+.copyright{
+font-family: 'Roboto', sans-serif;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+
+.footerLine{
+margin-bottom: 35px;
+margin-top: 35px;
+}
+
+/*GALERY PAGE CSS*/
+.row{
+display: inline-flex;
+}
+
+.galery{
+cursor: pointer;
+max-width: 500px;
+max-height: 500px;
+border-radius: 4px;
+transition: 0.3s;
+}
+.galery:hover{
+	opacity: 0.8;
+}
+.content a{
+	padding: 30px;
+}
+.content{
+	text-align: center;
+}
+.images{
+	text-align: center;
+}
