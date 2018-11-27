@@ -15,7 +15,7 @@
 	</header>
 
 	<div id="content">
-		
+
 		<div class="leftDiv">
 			<h2>Landscapes</h2>
 			<p>You'll find in this section all the images related to landscapes.</p>
